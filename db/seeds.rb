@@ -28,8 +28,8 @@ puts "5 skills created"
 		salen puestas en latin que no puedo siquiera
 		comprender.  es por eso que pongo mejor
 		cualquier cosa jajaja",
-		main_image: "http://placeholdit.it/600x400",
-		thumb_image: "http://placeholdit.it/350x200"
+		main_image: "http://placehold.it/600x400",
+		thumb_image: "http://placehold.it/350x200"
 	)
 end
 
