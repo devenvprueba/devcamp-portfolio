@@ -16,4 +16,8 @@ module ApplicationHelper
     	end
 	end
 
+  def copyright_generator
+    JulmDevcampViewTool::Renderer.copyright 'Ulises Lopez', 'Todos los derechos reservados'
+  end
+
 end
