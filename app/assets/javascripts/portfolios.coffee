@@ -1,3 +1,14 @@
-# Place all the behaviors and hooks related to the matching controller here.
-# All this logic will automatically be available in application.js.
-# You can use CoffeeScript in this file: http://coffeescript.org/
+ready = undefined
+
+/*
+* $('.sortable').sortable()   <-- este es el codigo del tutorial para llamar a la funcion sortable
+*
+* sortable('.sortable')   <-- este es el codigo correcto para llamar a la funcion sortable
+*/
+
+
+ready = ->
+  sortable('.sortable')
+  return
+
+ $(document).ready ready
